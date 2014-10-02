@@ -11,7 +11,6 @@ import com.kienle.sachnoi.tuduythongminh.adapter.MucLucAdapter;
 
 public class MainActivity extends Activity {
 	
-//	private List<String> mMucLucs = new ArrayList<String>();
 	private String[] mMucLucs = new String[] { 
 			"1. Lời Giới Thiệu",
 			"2. Tinh Thần Trách Nhiệm", 
