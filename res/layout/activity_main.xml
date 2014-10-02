@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/tdtm"
+	        />
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:text="Tư Duy Thông Minh" />
+	    
+	</LinearLayout>
+
+	<ListView 
+        android:id="@+id/lvMucLuc"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10dp"
+    	android:background="@android:color/transparent"
+	    android:dividerHeight="2dp"
+	    android:divider="@drawable/grey_line"
+	    android:listSelector="@drawable/list_item_bg"
+	    android:cacheColorHint="@android:color/transparent"
+        />
+</LinearLayout>
